@@ -1,22 +1,22 @@
 body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #000;
 }
 
-.container {
+.content {
+  margin: 0 auto;
+  padding: 50px;
   text-align: center;
 }
 
 h1 {
+  color: #ff00ff;
+  font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  color: #333;
+  text-shadow: 2px 2px 0 #00ffff, -2px -2px 0 #00ffff, 2px -2px 0 #00ffff, -2px 2px 0 #00ffff;
 }
 
-#countdown {
+p {
+  color: #00ffff;
   font-size: 2rem;
-  color: #555;
+  text-shadow: 2px 2px 0 #ff00ff, -2px -2px 0 #ff00ff, 2px -2px 0 #ff00ff, -2px 2px 0 #ff00ff;
 }
